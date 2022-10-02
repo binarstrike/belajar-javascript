@@ -4,7 +4,7 @@
  * kecuali function
  */
 
-// in variabel dengan scope global / window dalam javascript
+// ini variabel dengan scope global / window dalam javascript
 var nama = "Ucup";
 
 function displayName() {
