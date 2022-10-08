@@ -29,3 +29,14 @@ var Hero = {
 console.log(Hero);
 console.log(Hero.ability);
 console.log(Hero["ability"]["hp"]);
+
+// Object juga bisa menyimpan sebuah fungsi atau method
+var Barang = {
+    nama: "Sabun Dettol",
+    harga: 8000,
+    jumlah: 3,
+    total_harga : function() {
+        return this.harga * this.jumlah;
+    }
+};
+console.log(Barang.total_harga());
