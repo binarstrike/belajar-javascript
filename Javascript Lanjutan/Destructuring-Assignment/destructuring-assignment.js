@@ -64,7 +64,11 @@ bruh();
 const Maha = {
     nama: "Ucup",
     fakultas: "Informatika",
-    id: 2545432436
+    id: 2545432436,
+    nilai: {
+        uts: 100,
+        uas: 90
+    }
 }
 function getId(mhs) {
     return mhs.id;
@@ -75,3 +79,9 @@ function getFakultas({fakultas}) {
     return fakultas;
 }
 console.log(getFakultas(Maha));
+
+function getNilai({nilai: {uts, uas}}) {
+    return {uas, uts};
+}
+
+console.log(getNilai(Maha));
