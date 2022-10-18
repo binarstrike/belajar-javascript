@@ -34,9 +34,9 @@ let namaKu = nama => {
  let banyakHuruf = MAHA.map(huruf => huruf.length);
  console.log(banyakHuruf);
 
- // bila ingin me return sebuah object, object tersebut harus di apit dengan kurung
- // let whatever  = MAHA.map(nama => ({nama: nama, jumlahHuruf: nama.length}))
+// bila ingin me return sebuah object, object tersebut harus di apit dengan kurung
+// let whatever  = MAHA.map(nama => ({nama: nama, jumlahHuruf: nama.length}))
 // dan jika nama properti sama dengan nama variabel untuk isi dari properti
 // tersebut, maka dapat ditulis langsung nama variabel nya
-let whatever  = MAHA.map(nama=> ({nama, jumlahHuruf: nama.length}))
-console.table(whatever)
+let whatever  = MAHA.map(nama=> ({nama, jumlahHuruf: nama.length}));
+console.table(whatever);
