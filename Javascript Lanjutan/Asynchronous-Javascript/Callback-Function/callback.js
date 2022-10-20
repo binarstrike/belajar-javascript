@@ -8,7 +8,7 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
-// Asynchronous function
+// Asynchronous
 const halo = nama => console.log(`Halo ${nama}`);
 const sapa = callback => {
     rl.question("What is Your name: ", name => {
