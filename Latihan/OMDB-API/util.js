@@ -36,3 +36,8 @@ const getMoviesDetailById = id => {
         .then(res => res.data)
         .catch(err => err.cause);
 }
+
+module.exports = {
+    getMoviesObject,
+    getMoviesDetailById
+}
