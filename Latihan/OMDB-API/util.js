@@ -12,9 +12,10 @@ const URL = `${BASE_URL}?apikey=${API_KEY}&`;
  * Method untuk mengambil Object tentang detail film
  * berdasarkan parameter keyword.
  * @param {string} keyword 
+ * @param {number} banyak
  * @return Object
  */
-const getMoviesObject = keyword => {
+const getMoviesObject = (keyword) => {
     return axios({
         method: "get",
         url: `${URL}s=${keyword}`
