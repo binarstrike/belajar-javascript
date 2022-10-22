@@ -1,4 +1,13 @@
 {
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
+    "vscode-pets.theme": "beach",
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "emmet.triggerExpansionOnTab": true,
+    "prettier.tabWidth": 2,
+    "prettier.bracketSpacing": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
 }
