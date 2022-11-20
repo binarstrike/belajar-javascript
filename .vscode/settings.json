@@ -5,9 +5,11 @@
     "editor.acceptSuggestionOnEnter": "on",
     "editor.acceptSuggestionOnCommitCharacter": true,
     "emmet.triggerExpansionOnTab": true,
-    "prettier.tabWidth": 2,
-    "prettier.bracketSpacing": true,
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+        "editor.formatOnPaste": false, // required 
+        "editor.formatOnSave": true, // optional 
+        "editor.formatOnType": false, // required
+        "editor.formatOnSaveMode": "file" // required to format on save
     }
 }
