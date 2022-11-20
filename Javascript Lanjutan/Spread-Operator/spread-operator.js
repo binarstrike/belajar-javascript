@@ -1,6 +1,6 @@
 /**
  * Spread Operator
- * memecah (expand/unpuck) iterables menjadi singgel element
+ * memecah (expand/unpack) iterables menjadi singgel element
  */
 const bruh = () => console.log("=============");
 
