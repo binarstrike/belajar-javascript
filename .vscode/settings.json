@@ -1,15 +1,34 @@
 {
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "Jetbrains Mono SemiBold",
     "editor.fontLigatures": true,
     "vscode-pets.theme": "beach",
-    "editor.acceptSuggestionOnEnter": "on",
-    "editor.acceptSuggestionOnCommitCharacter": true,
-    "emmet.triggerExpansionOnTab": true,
     "[javascript]": {
-        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnPaste": false, // required 
         "editor.formatOnSave": true, // optional 
         "editor.formatOnType": false, // required
         "editor.formatOnSaveMode": "file" // required to format on save
-    }
+    },
+    "vscord.app.name": "Visual Studio Code",
+    "vscord.status.details.text.idle": "Let me take a rest for a while ZZzzz...",
+    "vscord.status.details.text.editing": "In {git_repo} | branch: {git_branch}",
+    "vscord.status.buttons.button1.git.active.label": "Hi",
+    "vscord.status.buttons.button1.git.idle.label": "Hi",
+    "vscord.status.image.large.viewing.key": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT5V2djTlM__LsPQJWWqt4H4hUtEL50TWdYqN8iiFlhSEw1CjiM",
+    "vscord.status.image.large.idle.key": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyLjiSwn6e8eltIzICFrMflrND-_lnZUfa53RKxxOvVW6jsa1dy7uG-a0ntlHVl4nF2hA&usqp=CAU",
+    "vscord.status.image.large.notInFile.key": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyLjiSwn6e8eltIzICFrMflrND-_lnZUfa53RKxxOvVW6jsa1dy7uG-a0ntlHVl4nF2hA&usqp=CAU",
+    "vscord.status.image.large.notInWorkspace.key": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmEWQScO3sf7DwgmFJN5PaZ_vxCKzg4GNkv5CYteJZ9DBJionIDFkhjP_QXVMeNxP15IU&usqp=CAU",
+    "better-comments.tags": [
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#808080",
+            "bold": false,
+            "italic": true
+        }
+    ]
+
 }
